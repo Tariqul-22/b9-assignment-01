@@ -1,10 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
 }
-body{
-    background-color:#FFF;
+
+body {
+    background-color: #FFF;
 }
+
 /* common-style */
 .container {
     width: 80%;
@@ -12,7 +16,7 @@ body{
     margin: 0 auto;
 }
 
-   /* banner-style */
+/* banner-style */
 .banner {
     background-image: url('../resources/Banner.png');
     height: 600px;
@@ -21,6 +25,7 @@ body{
     margin: 0 auto;
     align-items: center;
     justify-content: center;
+    border-radius: 25px;
 }
 
 header {
@@ -28,7 +33,7 @@ header {
 }
 
 .banner h5 {
-    color: #22d1a0;
+    color: #d2d21b;
     text-align: center;
     font-family: sans-serif;
     font-size: 40px;
@@ -36,11 +41,61 @@ header {
     padding-top: 200px;
 }
 
-.banner p{
+.banner h5 .span1 {
+    color: crimson;
+}
+
+.banner h5 .span2 {
+    color: aqua;
+}
+
+.banner p {
     color: aliceblue;
     text-align: center;
     font-family: sans-serif;
     font-size: 72px;
     font-weight: 900;
-    padding:10px 340px 150px 340px;
+    padding: 10px 340px 150px 340px;
+}
+
+/* section-1 start */
+.section1 h3 {
+    color: #F00;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 88px;
+    font-weight: 700;
+    margin-top: 150px;
+}
+
+.section1 h3 span {
+    color: #22d1a0;
+}
+
+.section1 .p1 {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 40px;
+}
+
+.section1 .p2 {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+.section1 img{
+    margin-top: 45px;
+}
+
+.section1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

@@ -265,13 +265,13 @@ header {
     line-height: 32px
 }
 
-.section7 .input-info form{
+.section7 .input-info form {
     background: #FFF;
     justify-content: center;
     align-items: center;
     display: flex;
     margin-top: 50px;
-   
+
 }
 
 .section7 .input-info .email {
@@ -280,7 +280,7 @@ header {
     font-weight: 400;
     border-radius: 50px 0px 0px 50px;
     padding: 15px 30px;
-    
+
 }
 
 .section7 .input-info .button {
@@ -293,8 +293,93 @@ header {
     border-radius: 0px 50px 50px 0px;
     padding: 15px 30px;
 }
-.section7 .input-info .button:hover{
+
+.section7 .input-info .button:hover {
     background-color: rgb(39, 246, 39);
     color: #F00;
 }
 
+footer {
+    background: #070211;
+    width: 100%;
+    height: 600px;
+    margin-top: 7.5%;
+}
+
+footer .container hr {
+    height: 1px;
+    border: none;
+    background-color: #FFFFFF26;
+}
+
+
+footer .container .info {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 8%;
+    padding-bottom: 3.5%;
+}
+
+footer .container .info .contact {
+    display: flex;
+    gap: 12px;
+}
+
+footer .container .info .web {
+    display: flex;
+    gap: 12px;
+    margin-top: 8px;
+}
+
+footer .container .info .web a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+footer .container .info .web a:hover {
+    color: blue;
+
+}
+
+footer .container .info .div2 {
+    margin-right: 10%;
+}
+
+footer .container .icon {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+    margin: 3.8% auto;
+}
+
+footer .container .end {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    padding-top: 4%;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+footer .container .end button{
+    color: #f1efef;
+    background-color: #070211;
+    border: 1px solid rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 8px 15px;
+    margin-right: 6%;
+    border-radius: 50px 50px 50px 50px;
+}
+footer .container .end button:hover{
+    background-color: #080d58;
+    color: #F00;
+}

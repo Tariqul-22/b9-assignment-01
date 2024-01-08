@@ -17,6 +17,14 @@ body {
     border-radius: 20px;
 }
 
+p {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 380;
+    margin-top: 2%;
+}
+
 /* banner-style */
 .banner {
     background-image: url('../resources/Banner.png');
@@ -102,6 +110,8 @@ header {
     align-items: center;
 }
 
+/* section-1 End */
+
 /* section-2 start */
 .section2 {
     background-image: url('../resources/Vectorrr.png');
@@ -120,14 +130,6 @@ header {
     font-family: 'Inter', sans-serif;
     font-size: 75px;
     font-weight: 800;
-}
-
-.section2 .div1 p {
-    color: rgba(255, 255, 255, 0.80);
-    font-family: Inter;
-    font-size: 25px;
-    font-weight: 380;
-    margin-top: 2%;
 }
 
 .section2 .div1 button {
@@ -150,10 +152,16 @@ header {
     margin: 4% 7% 9.5%;
 }
 
+/* section-2 End */
+
 /* section-3 start */
 .section3 {
     height: 400px;
     background-color: rgb(255, 247, 254);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .section3 p {
@@ -182,22 +190,16 @@ header {
     margin-top: 30px;
 }
 
-.section3 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
 .section3 button:hover {
     background-color: blueviolet;
     color: greenyellow;
 }
 
+/* section-3 End */
 
 /* section-6 start */
 .section6 .content .title {
-    color: red;
+    color: blue;
     font-family: Inter;
     font-size: 25px;
     font-weight: 480px;
@@ -210,9 +212,11 @@ header {
     font-weight: 880;
     margin-top: 20px;
 }
-.section6{
+
+.section6 {
     margin-top: 130px;
 }
+
 .section6 .content .text {
     color: rgba(4, 2, 8, 0.6);
     font-family: Inter;
@@ -222,10 +226,74 @@ header {
     margin: 1.5% 0;
     line-height: 30px
 }
-.section6 .product-photo{
+
+.section6 .product-photo {
     display: flex;
 }
-.section6 .product-photo div img{
+
+.section6 .product-photo div img {
     padding: 12px;
     border-radius: 8%;
+}
+
+/* section-6 End */
+.section7 {
+    height: 550px;
+    background-color: rgb(255, 247, 254);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8%;
+}
+
+.section7 .content h3 {
+    color: #070211;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: 850;
+    margin-top: 20px;
+}
+
+.section7 .content p {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px
+}
+
+.section7 .input-info form{
+    background: #FFF;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 50px;
+   
+}
+
+.section7 .input-info .email {
+    color: rgba(7, 2, 17, 0.30);
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 50px 0px 0px 50px;
+    padding: 15px 30px;
+    
+}
+
+.section7 .input-info .button {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    background: #F00;
+    border-radius: 0px 50px 50px 0px;
+    padding: 15px 30px;
+}
+.section7 .input-info .button:hover{
+    background-color: rgb(39, 246, 39);
+    color: #F00;
 }

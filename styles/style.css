@@ -237,6 +237,7 @@ header {
     border-radius: 8%;
 }
 .section6 .product-photo div img:hover{
+    background: #d2d21b;
     transition: 1ms;
 }
 

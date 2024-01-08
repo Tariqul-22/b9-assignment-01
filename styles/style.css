@@ -25,7 +25,7 @@ p {
     margin-top: 2%;
 }
 
-/* banner-style */
+/* banner-style-start */
 .banner {
     background-image: url('../resources/Banner.png');
     height: 600px;
@@ -66,8 +66,9 @@ header {
     font-weight: 900;
     padding: 10px 340px 150px 340px;
 }
+/* banner-style-end */
 
-/* section-1 start */
+/* section-01 start */
 .section1 h3 {
     color: #F00;
     text-align: center;
@@ -110,9 +111,9 @@ header {
     align-items: center;
 }
 
-/* section-1 End */
+/* section-01 End */
 
-/* section-2 start */
+/* section-02 start */
 .section2 {
     background-image: url('../resources/Vectorrr.png');
     display: flex;
@@ -152,9 +153,9 @@ header {
     margin: 4% 7% 9.5%;
 }
 
-/* section-2 End */
+/* section-02 End */
 
-/* section-3 start */
+/* section-03 start */
 .section3 {
     height: 400px;
     background-color: rgb(255, 247, 254);
@@ -195,9 +196,9 @@ header {
     color: greenyellow;
 }
 
-/* section-3 End */
+/* section-03 End */
 
-/* section-6 start */
+/* section-06 start */
 .section6 .content .title {
     color: blue;
     font-family: Inter;
@@ -231,12 +232,17 @@ header {
     display: flex;
 }
 
-.section6 .product-photo div img {
+.section6 .product-photo div img{
     padding: 12px;
     border-radius: 8%;
 }
+.section6 .product-photo div img:hover{
+    transition: 1ms;
+}
 
-/* section-6 End */
+/* section-06 End */
+
+/* section-07 start */
 .section7 {
     height: 550px;
     background-color: rgb(255, 247, 254);
@@ -298,7 +304,9 @@ header {
     background-color: rgb(39, 246, 39);
     color: #F00;
 }
+/* section-07 End */
 
+/* Footer-style-start */
 footer {
     background: #070211;
     width: 100%;
@@ -383,3 +391,4 @@ footer .container .end button:hover{
     background-color: #080d58;
     color: #F00;
 }
+/* Footer-style-end */
